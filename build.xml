@@ -16,6 +16,7 @@
     <available file="version.txt" property="version.present" />
     <touch unless:set="version.present" file="version.txt" />
     <mkdir dir="${src}" />
+    <mkdir dir="${lib}" />
     <mkdir dir="${java}" />
     <mkdir dir="${classes}" />
     <mkdir dir="${dist}" />
